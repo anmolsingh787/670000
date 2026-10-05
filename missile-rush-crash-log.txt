@@ -1,0 +1,208 @@
+﻿--------- beginning of main
+09-21 13:20:19.332 30875  5446 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -64766
+09-21 13:20:19.521 30875 30875 E SlowAppComponent: 0ms: KeepWarmReceiver instantiatingΓÇª
+09-21 13:20:19.521 30875 30875 E SlowAppComponent: Main thread was blocked for 80ms in the foreground starting with KeepWarmReceiver
+09-21 13:20:19.534 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:19.535 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:19.535 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:19.535 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:19.535 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:19.555 30875  5446 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 281988
+09-21 13:20:19.903 30875  5451 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -281988
+09-21 13:20:20.039 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:20.039 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:20.040 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:20.040 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:20.040 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:20.545 30875 32552 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=889141, DequeueBufferDuration=3860521, forgiveAmount=889141, totalDuration=9681041
+09-21 13:20:20.579  5472  5505 E rtvip   : error 10 (0xd503245f)
+09-21 13:20:20.580  5472  5505 E rtvip   : error 2
+09-21 13:20:20.594 30875 30875 E SlowAppComponent: 0ms: KeepWarmReceiver instantiatingΓÇª
+09-21 13:20:20.594 30875 30875 E SlowAppComponent: Main thread was blocked for 31ms in the foreground starting with KeepWarmReceiver
+09-21 13:20:20.624  5472  5505 E HeliumCrashReporter: Pending crash path /data/data/com.facebook.katana/cache/webview_embedded/Helium Crashpad/pending/ is not a directory
+09-21 13:20:20.890  5472  5509 E MprotectOptimization: Failed to make 0x7b0f6cd000 (225280 bytes) executable for 7b0f6cd000-7b0f705000 r--p 02e5c000 103:04 294784                        /data/app/~~0HN4jsGhXsGfPc-idr6NeA==/com.facebook.katana-GRB_aGeFzfXCB-uicTSIYA==/oat/arm64/base.odex
+09-21 13:20:20.892  5472  5509 E MlockOptimization: mlock 0x7b036ab000 76427264 failed for 7b036ab000-7b0c871000 rw-p 00000000 103:04 1763541                       /data/app/~~0HN4jsGhXsGfPc-idr6NeA==/com.facebook.katana-GRB_aGeFzfXCB-uicTSIYA==/oat/arm64/base.vdex
+09-21 13:20:20.894  5472  5506 E QPLProvider: QuickPerformanceLogger instance wasn't installed in provider, returning noop. Please call QuickPerformanceLoggerProvider.setQuickPerformanceLogger() before getting the instance.
+09-21 13:20:20.894  5472  5506 E QPLProvider: java.lang.IllegalStateException: No QPL instance provided
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at com.facebook.quicklog.QuickPerformanceLoggerProvider.getQPLInstance(:35)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.1FE.EtW(:1)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.1F5.<init>(:11)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.1FC.apply(:18)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1729)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.1F1.A00(:71)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.1Eo.<clinit>(:2)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.1Em.<init>(:9)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A0D(:317)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A02(:3)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A0E(:3)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A03(:3)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A04(:3)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A0A(:11)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A09(:9)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.EEV.A08(:11)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.17k.A01(:147)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.3OT.A03(:69)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at com.facebook.common.appinit.invoker.OnApplicationInitInvoker.CWu(:2200)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.0ju.run(:305)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at X.0EP.run(:11)
+09-21 13:20:20.894  5472  5506 E QPLProvider: 	at java.lang.Thread.run(Thread.java:1572)
+09-21 13:20:20.896  5472  5506 E AppState: Returning default for firstRunInfo
+09-21 13:20:20.896  5472  5506 E AppState: Returning default for firstRunInfo
+09-21 13:20:20.897 30875  3599 E BitmapMemoryCacheTrimStrategy: unknown trim type: OnSystemMemoryRed
+09-21 13:20:21.086 30875 30875 E ImpressionTracker: Viewable info missing for media with key 3990228877603757004_62440365676
+09-21 13:20:21.121  5472  5529 E facebook.katan: No implementation found for void com.facebook.quicklog.QuickPerformanceLoggerNativeProvider.nativeUpdateQPLInstance() (tried Java_com_facebook_quicklog_QuickPerformanceLoggerNativeProvider_nativeUpdateQPLInstance and Java_com_facebook_quicklog_QuickPerformanceLoggerNativeProvider_nativeUpdateQPLInstance__) - is the library loaded, e.g. System.loadLibrary?
+09-21 13:20:21.168  5472  5529 E AppState: Returning default for firstRunInfo
+09-21 13:20:21.209  5472  5472 E SlowAppComponent: 0ms: FacebookApplication instantiatingΓÇª
+09-21 13:20:21.209  5472  5472 E SlowAppComponent: Main thread was blocked for 1008ms in the background starting with FacebookApplication
+09-21 13:20:21.329  5472  5529 E AppState: Returning default for firstRunInfo
+09-21 13:20:21.329  5472  5529 E AppState: Returning default for firstRunInfo
+09-21 13:20:21.329  5472  5529 E AppState: Returning default for firstRunInfo
+09-21 13:20:21.345 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:21.345 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:21.345 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:21.345 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:21.346 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:21.503  5472  5505 E fb4a.AppState: Returning default for firstRunInfo
+09-21 13:20:21.685  5472  5531 E fb4a.AppState: Returning default for firstRunInfo
+09-21 13:20:21.685  5472  5531 E fb4a.AppState: Returning default for firstRunInfo
+--------- beginning of crash
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: FATAL EXCEPTION: main
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: Process: com.aerrik.missilerush, PID: 5571
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.aerrik.missilerush/com.aerrik.missilerush.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'android.view.WindowInsetsController com.android.internal.policy.DecorView.getWindowInsetsController()' on a null object reference
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3939)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4096)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2441)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:233)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:334)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8399)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:582)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1068)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.view.WindowInsetsController com.android.internal.policy.DecorView.getWindowInsetsController()' on a null object reference
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.getInsetsController(PhoneWindow.java:4066)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at com.aerrik.missilerush.MainActivity.hideSystemUI(MainActivity.java:82)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at com.aerrik.missilerush.MainActivity.onCreate(MainActivity.java:37)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8385)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8363)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1379)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3912)
+09-21 13:20:21.856  5571  5571 E AndroidRuntime: 	... 12 more
+09-21 13:20:21.956 30875 30875 E SlowAppComponent: 0ms: KeepWarmReceiver instantiatingΓÇª
+09-21 13:20:21.956 30875 30875 E SlowAppComponent: Main thread was blocked for 189ms in the foreground starting with KeepWarmReceiver
+09-21 13:20:21.981  5472  5512 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+09-21 13:20:21.981  5472  5512 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+09-21 13:20:21.981  5472  5512 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+09-21 13:20:22.364 30875 30875 W RageShakeSensorHelper: onActivityResume
+09-21 13:20:22.365 30875 30875 W RageShakeEligibilityHelper: Showing public rageshake flow
+09-21 13:20:22.365 30875 30875 W RageShakeSensorHelper: registerShakeListener started | mRegistered=false
+09-21 13:20:22.365 30875 30875 W RageShakeSensorHelper: registerShakeListener registered
+09-21 13:20:22.399  5153  5153 I AppBase : AppBase.onTrimMemory():276 onTrimMemory(): 5
+09-21 13:20:22.400  5153  5153 I KeyboardDefCache: MemoryFileCache$1.onTrimMemory():124 clearMemory() for trim memory: 5
+09-21 13:20:22.400  5153  5153 I KeyboardDefCache: MemoryFileCache.clearMemory():408 evictAll()
+09-21 13:20:22.401  5153  5153 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():3121 onTrimMemory(): 5
+09-21 13:20:22.446  5472  5506 W fb4a.AppInitScheduler|Run:   Finished StartupQPLReplayer in 254ms
+09-21 13:20:22.446  5472  5506 W fb4a.AppInitScheduler|Schedule:   Executing 433:StartupQPLTransitToMatureStage
+09-21 13:20:22.446  5472  5506 W fb4a.AppInitScheduler|Run: Running StartupQPLTransitToMatureStage, order=167, priorityHint=LOW 
+09-21 13:20:22.450  5472  5506 W fb4a.AppInitScheduler|Run:   Finished StartupQPLTransitToMatureStage in 3ms
+09-21 13:20:22.450  5472  5506 W fb4a.AppInitScheduler|Run: SKIP AppInit 465:VideoMetaCasper for start destination 6
+09-21 13:20:22.450  5472  5506 W fb4a.AppInitScheduler|Run:   Finished VideoMetaCasper in 0ms
+09-21 13:20:22.455  5472  5512 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+09-21 13:20:22.285  5472  5528 W fb4a.AppInitScheduler|Run:   Finished PreloadReactions in 283ms
+09-21 13:20:22.460  5472  5634 W facebook.katan: JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.radiosignal.RadioSignalProviderAppLayerUpcallsImpl
+09-21 13:20:22.478  5472  5530 W fb4a.AppInitScheduler|Run:   Finished PreloadStoriesTrayFetchController in 472ms
+09-21 13:20:22.549  5472  5532 W fb4a.AppInitScheduler|Run:   Finished InitLacrimaLaterInit in 1170ms
+09-21 13:20:22.549  5472  5531 W fb4a.AppInitScheduler|Run:   Finished SecondaryDexPreloaderBg in 479ms
+09-21 13:20:22.551  5472  5519 W fb4a.lacrima: FixedLengthFiles.init() called twice.
+09-21 13:20:22.551  5472  5505 W fb4a.AppInitScheduler|Run:   Finished PreloadIconsInit in 1065ms
+09-21 13:20:22.551  5472  5519 W fb4a.lacrima: FixedLengthFiles.init() called twice.
+09-21 13:20:22.581  5472  5529 W fb4a.AppInitScheduler|Run:   Finished PreloadFeedDataLoader in 1007ms
+09-21 13:20:22.593  5472  5508 W fb4a.AppInitScheduler|Run:   Finished PreloadFeedFullCacheLoad in 962ms
+09-21 13:20:22.594  5472  5508 W fb4a.AppInitScheduler|Schedule:   Executing 137:EagerInitFeedDataLoader
+09-21 13:20:22.603 30875 30875 W StoryViewerAttributionEligibilityUtil: MENTION_RESHARE_ATTRIBUTION ineligible: resharedStoryMediaAuthor=null, isSponsored=false, isPaidPartnership=false, mediaId=3990228877603757004_62440365676, media=present
+09-21 13:20:22.606  5472  5506 W fb4a.AppInitScheduler|Run: RUN AppInit 137:EagerInitFeedDataLoader for start destination 6
+09-21 13:20:22.606  5472  5506 W fb4a.AppInitScheduler|Run: Running EagerInitFeedDataLoader, order=129, priorityHint=LOW 
+09-21 13:20:22.607  5472  5506 W fb4a.AppInitScheduler|Run:   Finished EagerInitFeedDataLoader in 1ms
+09-21 13:20:22.607  5472  5506 W fb4a.AppInitScheduler|Schedule:   Executing 384:PreloadStoriesTray
+09-21 13:20:22.607  5472  5508 W fb4a.AppInitScheduler|Run: RUN AppInit 384:PreloadStoriesTray for start destination 6
+09-21 13:20:22.607  5472  5508 W fb4a.AppInitScheduler|Run: Running PreloadStoriesTray, order=156, priorityHint=LOW 
+09-21 13:20:22.608  5472  5508 W fb4a.AppInitScheduler|Run:   Finished PreloadStoriesTray in 1ms
+09-21 13:20:22.704 30875  5400 V PlayerBase: baseStart() piid=67743 deviceId=0
+09-21 13:20:22.708  5472  5507 W fb4a.AppInitScheduler|Run:   Finished InitTrafficNTS in 839ms
+09-21 13:20:22.710  5472  5507 W fb4a.AppInitScheduler|Schedule: Pending tasks reached zero, maybe shutting downΓÇª
+09-21 13:20:22.711  5472  5507 W fb4a.AppInitScheduler|Run: All work finished.
+09-21 13:20:22.712 30875  5400 D AudioTrack: start(portId:8760, sessionId:51705): prior state:STATE_PAUSED
+09-21 13:20:22.712 30875  5400 D AudioTrack: getpackName client name com.instagram.android(30875)
+09-21 13:20:22.715 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:22.715 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:22.716 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:22.729 30875  5400 D AudioTrack: getTimestamp_l(8760): device stall time corrected using current time 216776404528710
+09-21 13:20:22.732 30875 30875 W NonBlockingScreenshotDetectorImpl: Started new screenshot session
+09-21 13:20:22.732 30875 30875 W NonBlockingScreenshotDetectorImpl: Setting active session
+09-21 13:20:22.732 30875 30875 W NonBlockingScreenshotDetectorImpl: Now handling 2 active screenshot sessions
+09-21 13:20:22.742 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:22.747 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:22.752 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:22.802 30875 30875 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+09-21 13:20:22.866 30875  1680 I OpenGLRenderer: Davey! duration=753ms; Flags=0, FrameTimelineVsyncId=16780906, IntendedVsync=216775767797350, Vsync=216776467797322, InputEventId=0, HandleInputStart=216776478273189, AnimationStart=216776478276627, PerformTraversalsStart=216776478445950, DrawStart=216776488955220, FrameDeadline=**************2, FrameInterval=216776478161210, FrameStartTime=16666666, SyncQueued=216776489705481, SyncStart=216776493974439, IssueDrawCommandsStart=216776494934387, SwapBuffers=216776520432824, FrameCompleted=216776525975897, DequeueBufferDuration=60364, QueueBufferDuration=2068490, GpuCompleted=216776524495272, SwapBuffersCompleted=216776525975897, DisplayPresentTime=0, 
+09-21 13:20:22.890 30875  5400 D AudioTrack: getTimestamp_l(8760): stale timestamp time corrected, currentTimeNanos: 216775765314283 < limitNs: **************4 < mStartNs: 216776389620064
+09-21 13:20:22.890 30875  5400 W AudioTrack: getTimestamp_l(8760): retrograde timestamp time corrected, **************4 < 216776555130637
+09-21 13:20:22.915 30875 30875 D ImeFocusController: onViewFocusChanged, view=com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F.....D 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869}, mServedView=com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F.....D 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869}
+09-21 13:20:22.917 30875 30875 V ImeFocusController: onWindowFocus: com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F....ID 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869} softInputMode=STATE_UNSPECIFIED|ADJUST_NOTHING
+09-21 13:20:22.917 30875 30875 D ImeFocusController: onViewFocusChanged, view=com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F....ID 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869}, mServedView=com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F....ID 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869}
+09-21 13:20:22.917 30875 30875 V ImeFocusController: checkFocus: view=com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F....ID 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869} next=com.instagram.common.ui.widget.touchinterceptorlayout.TouchInterceptorFrameLayout{6bfdad7 VFE...... .F....ID 0,0-720,1460 #7f0b3481 app:id/reel_viewer_root aid=1073741869} force=true package=com.instagram.android
+09-21 13:20:22.920  5153  5153 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2361 
+09-21 13:20:22.922  5153  5153 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.instagram.android, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131440769, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-21 13:20:22.922  5153  5153 W LatinIMEBase: LatinIMEBase.updateInputViewCoverNavigation():321 Null input view, cannot update padding!
+09-21 13:20:22.932  5153  5705 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
+09-21 13:20:22.934  5153  5705 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
+09-21 13:20:22.960 30875  3599 I stagram.androi: Explicit concurrent copying GC freed 3397KB AllocSpace bytes, 15(732KB) LOS objects, 21% free, 85MB/109MB, paused 4.136ms,1.164ms total 2.014s
+09-21 13:20:22.963 30875 30879 I stagram.androi: WaitForGcToComplete blocked HeapTrim on Explicit for 2.010s
+09-21 13:20:22.964 30875  5411 D BufferPoolAccessor2.0: bufferpool2 0xb400007c77fe7908 : 4(32768 size) total buffers - 4(32768 size) used buffers - 1/6 (recycle/alloc) - 16/89 (fetch/transfer)
+09-21 13:20:22.988 30875 30875 E SlowAppComponent: 0ms: KeepWarmReceiver instantiatingΓÇª
+09-21 13:20:22.988 30875 30875 E SlowAppComponent: Main thread was blocked for 31ms in the foreground starting with KeepWarmReceiver
+09-21 13:20:23.031 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.031 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.031 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.031 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.031 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.063 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=1404017, DequeueBufferDuration=1615417, forgiveAmount=1404017, totalDuration=11248164
+09-21 13:20:23.146 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=70927, DequeueBufferDuration=2293542, forgiveAmount=70927, totalDuration=10933771
+09-21 13:20:23.230 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=264909, DequeueBufferDuration=5461093, forgiveAmount=264909, totalDuration=17007006
+09-21 13:20:23.246 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=651047, DequeueBufferDuration=3330312, forgiveAmount=651047, totalDuration=9989052
+09-21 13:20:23.280 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=962461, DequeueBufferDuration=787292, forgiveAmount=787292, totalDuration=6634309
+09-21 13:20:23.313 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=1194193, DequeueBufferDuration=1431458, forgiveAmount=1194193, totalDuration=6031146
+09-21 13:20:23.470 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.471 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.471 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.471 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.471 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.478 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=40735, DequeueBufferDuration=1690156, forgiveAmount=40735, totalDuration=7922436
+09-21 13:20:23.595 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=1562526, DequeueBufferDuration=630781, forgiveAmount=630781, totalDuration=5701380
+09-21 13:20:23.814 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=589516, DequeueBufferDuration=5030521, forgiveAmount=589516, totalDuration=14215082
+09-21 13:20:23.918 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=1331468, DequeueBufferDuration=5273177, forgiveAmount=1331468, totalDuration=10342898
+09-21 13:20:23.929 30875  1680 E OpenGLRenderer: JankTracker::calculateLegacyJank expectedDequeueDuration > 0 expectedDequeueDuration=266386, DequeueBufferDuration=4076875, forgiveAmount=266386, totalDuration=12370145
+09-21 13:20:23.931 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.932 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.933 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.933 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.933 30875 30875 E stagram.androi: Invalid ID 0x00000007.
+09-21 13:20:23.980 30875  5673 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 30750
+09-21 13:20:24.061 30875 30875 E SlowAppComponent: 0ms: KeepWarmReceiver instantiatingΓÇª
+09-21 13:20:24.062 30875 30875 E SlowAppComponent: Main thread was blocked for 65ms in the foreground starting with KeepWarmReceiver
+09-21 13:20:24.069 30875  5677 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -30750
+09-21 13:20:24.244 30875 30875 W NonBlockingScreenshotDetectorImpl: Resigning active session
+09-21 13:20:24.244 30875 30875 W NonBlockingScreenshotDetectorImpl: Now handling 1 active screenshot sessions
+09-21 13:20:24.246 30875 30875 E ImpressionTracker: Viewable info missing for media with key 3990228877603757004_62440365676
+09-21 13:20:24.263 30875  5653 D AudioManager: abandonAudioFocus  by com.instagram.android
+09-21 13:20:24.270 30875  5400 D AudioTrack: pause(8760): prior state:STATE_ACTIVE
+09-21 13:20:24.270 30875  5400 D AudioTrack: getpackName client name com.instagram.android(30875)
+09-21 13:20:24.312 30875  5400 V PlayerBase: basePause() piid=67743
+09-21 13:20:24.320 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:24.322 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()
+09-21 13:20:24.322 30875 30911 D AudioManager: dispatching onPlaybackConfigChanged()

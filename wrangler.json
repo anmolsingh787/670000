@@ -1,0 +1,26 @@
+{
+  "name": "missile-rush-sky-escape",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "main": "dist/server/index.js",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "missile-rush-db",
+      "database_id": "77dc8ba5-2b55-4ff8-87fa-09ea1be65872"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "SESSION_KV",
+      "id": "699e1879ae3a4bd4be85f661eae53e8d"
+    }
+  ],
+  "assets": {
+    "directory": "dist/client"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

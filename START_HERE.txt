@@ -1,0 +1,24 @@
+MISSILE RUSH: SKY ESCAPE — Browser game source
+
+1. Extract this ZIP and open the missile-rush folder in VS Code.
+2. Install Node.js 22.13 or newer.
+3. Open a terminal in that folder and run:
+
+   npm install -g pnpm@11.25.0
+   pnpm install
+   pnpm dev
+
+4. Open the local URL printed in the terminal.
+
+Controls: drag on mobile; WASD / arrows on PC.
+Space = boost, E = shield, Escape = pause.
+
+Build: pnpm build
+Tests: pnpm test:game
+
+Live game: https://missile-rush-sky-escape.anmol4941j.chatgpt.site
+
+Full source code, artwork, configuration, tests and documentation are included.
+Dependencies (node_modules) are installed with pnpm install.
+This is the React/TypeScript/Phaser browser version, not a Flutter APK project.
+See README.md for features and integration limitations.
